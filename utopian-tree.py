@@ -17,4 +17,4 @@ test_cases = int(raw_input())
 
 for _ in range(test_cases):
     c = int(raw_input().strip())
-    print Utopian_Tree(c)
+    print utopian_tree(c)
