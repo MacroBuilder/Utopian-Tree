@@ -4,7 +4,7 @@ def utopian_tree(cycles):
         return height
     else:
         switch = False
-        for i in range(0,cycles):
+        for i in range(cycles):
             if switch == False:
                 height *= 2
                 switch = True
